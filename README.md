@@ -61,3 +61,28 @@ Sourcing the setup script
 # Possible values are: setup.bash, setup.sh, setup.zsh
 source /opt/ros/humble/setup.bash
 
+3 de julio 
+ros 2 communications 
+command for run a package
+ros2 run (name of package)
+the packages can have different programs 
+
+rqt_graph see the graph its the representation of all the nodes are running 
+
+we have 2 nodes (talker y listener)
+in the graphic the talker noe is talking to listener node
+
+examples 
+ros2 run demo_nodes_cpp listener
+ros2 run demo_nodes_cpp talker
+
+
+turtlesim 
+
+is a package to start experimenting with robots in two dimensions 
+ros2 run turtlesim
+
+to control the turtle with keyboard
+ros2 run turtlesim turtle_teleop_key - responsable for send the information
+ros2 run turtlesim turtlesim_node - is responsable for create the interface and to recive and execute the instruction 
+
