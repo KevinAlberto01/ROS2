@@ -35,3 +35,5 @@ we go into the install folder
 then we need to source the setup.bash 
 source ~/catkin_ws/install/setup.bash
 
+
+
