@@ -21,5 +21,13 @@ when to use ROS2?
 help you develop powerful and scalable robot applications, so when you need a lot of communicaction 
 
 
+Tools we use 
+
+terminal
+terminator - its a improved terminal where you can split easily in four any layout 
+to intall it -  sudo apt intall terminator 
+visual studio - to write code 
+sudo apt install python3-pip 
+
 installation link: https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html
 
