@@ -32,9 +32,9 @@ package.xml is in every in ros2 pacakge and cotains the name of the packages, de
 
 setup.cfg YOU NEVER GOING TO TOUCH IT its just to help the ros where the nodes are going to installed 
 
-we can see a file with the same name of the principal pacakage 
+we can see a file with the same name of the principal package in this folder puts the nodes 
 
-insidee we have a __init__.py
+insidee we have a __init__.py you dont touch it 
 
 we are going to create our rows to nodes 
 
@@ -67,3 +67,24 @@ now we can see all the package has been built
 
 
 this works for fetch all the nodes and packages and is going to install it inside the install folder of the workspace
+
+compile your package 
+go to work space 
+put 
+
+colcon build 
+
+
+colcon build --packages-select my_py_pkg - its works for a specific package if you want to make a few teste in one package 
+
+
+C++
+
+go to the work space, 
+ros2 pkg create my_cpp_pkg --build-type ament_cmake --dependencies rclcpp
+
+head of file in include directory 
+if you new to add a depend you need to add in package.xml and CMakeList.txt
+to compile this package
+colcon build 
+colcon build --packages-select my_cpp_pkg 
