@@ -31,3 +31,9 @@ sudo apt install python3-pip
 
 installation link: https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html
 
+you need to install colcon is a build tool and was created specify for ros2 
+sudo apt install python3-colcon-common-extensions
+
+
+go to 
+source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash
