@@ -37,3 +37,11 @@ sudo apt install python3-colcon-common-extensions
 
 go to 
 source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash
+
+
+
+language libraries 
+rclpy - python
+rclcpp - c++
+
+rlc is a ros library and it means Ross Client Library also is a  library which contains all the functionalities 
