@@ -26,8 +26,8 @@ help you develop powerful and scalable robot applications, so when you need a lo
 - **Terminal** 
 - **Terminator**  
   - its a improved terminal where you can split easily in four any layout
-to intall it 
-`sudo apt intall terminator `
+to install it 
+`sudo apt install terminator `
 visual studio - to write code 
 sudo apt install python3-pip 
 
