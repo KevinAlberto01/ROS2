@@ -48,8 +48,13 @@ source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash
 ```
 
 
-language libraries 
-rclpy - python
-rclcpp - c++
+## 3.language libraries 
+**rlc** is a ros library and it means Ross Client Library also is a  library which contains all the functionalities 
 
-rlc is a ros library and it means Ross Client Library also is a  library which contains all the functionalities 
+rclpy 
+ - python
+
+rclcpp 
+ - c++
+
+
