@@ -68,6 +68,22 @@ source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash
 source ~/catkin_ws/install/setup.bash
 ```
 
+you can also source directly if you are not sure that the new version you made was source
+
+```
+source ~/.bashtc
+```
+
+if you put ros2 with tab, you can see all the commands that you get 
+remember ros pkg is for create a package 
+run is for running a program with this you need a package and executable 
+
+
+ros run -h is for get some help about the command
+ros2 node list -> allow you to see all the nodes 
+
+ros2 node info /node -> will you give you some information about subscribers 
+
 ## 4.References 
  - [Ros2-Humble/Documentation](https://docs.ros.org/en/rolling/index.html)
 
