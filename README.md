@@ -24,7 +24,7 @@ Help you develop powerful and scalable robot applications, so when you need a lo
 ## 2.Tools we use 
 
 **Terminal window**
-- Command prompt
+ - Command prompt
 **Visual studio**
 - Code editor redefined and optimized for building and debugging modern web and cloud applications
 - You can also install Microsoft Visual Studio Code from your Ubuntu's GUI
