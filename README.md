@@ -2,13 +2,13 @@
 ## 1.Introduction for ros2-Humble Hawksbill
 
 ### what is ROS? 
-  Robot Operating System 
+Robot Operating System 
 
 ### version of ros?
- **Ros** : 1st version. 
+**Ros** : 1st version. 
  
- **Ros 2**: 2nd version (is now stable).
-  - In this tutorial, we use Humble Hawksbill version
+**Ros 2**: 2nd version (is now stable).
+- In this tutorial, we use Humble Hawksbill version
 
 ### why ros?
 - Provided a standard for robotic application 
