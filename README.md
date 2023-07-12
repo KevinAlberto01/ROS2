@@ -25,11 +25,10 @@ help you develop powerful and scalable robot applications, so when you need a lo
 
 - **Terminal** 
 - **Terminator**  
-  - its a improved terminal where you can split easily in four any layout
-to install it 
-`sudo apt install terminator `
-visual studio - to write code 
-sudo apt install python3-pip 
+  - Its a improved terminal where you can split easily in four any layout
+  - To install it `sudo apt install terminator`
+- **visual studio**
+  - to write code `sudo apt install python3-pip`
 
 installation link: https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html
 
