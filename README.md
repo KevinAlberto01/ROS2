@@ -23,18 +23,18 @@ Help you develop powerful and scalable robot applications, so when you need a lo
 
 ## 2.Tools we use 
 
-- **Terminal window**
-  - Command prompt
-- **Visual studio**
-  - Code editor redefined and optimized for building and debugging modern web and cloud applications
-  - You can also install Microsoft Visual Studio Code from your Ubuntu's GUI
-- **Terminator**  
-  - Its a improved terminal where you can split easily in four any layout
-  - To install it `sudo apt install terminator`
-- **Pip3**
-  - The official package manager and pip command for Python 3
-  - To install it `sudo apt install python3-pip`
-- **Colcon**
+**Terminal window**
+ - Command prompt
+ **Visual studio**
+ - Code editor redefined and optimized for building and debugging modern web and cloud applications
+ - You can also install Microsoft Visual Studio Code from your Ubuntu's GUI
+ **Terminator**  
+ - Its a improved terminal where you can split easily in four any layout
+ - To install it `sudo apt install terminator`
+ **Pip3**
+ - The official package manager and pip command for Python 3
+ - To install it `sudo apt install python3-pip`
+ **Colcon**
  - Is a build tool and was created specify for ros2 
  - To install it `sudo apt install python3-colcon-common-extensions`
  - Put this line in your bashrc file
