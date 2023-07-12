@@ -25,7 +25,7 @@ help you develop powerful and scalable robot applications, so when you need a lo
 
 - **Terminal** 
 - **Terminator**  
-- <sub> its a improved terminal where you can split easily in four any layout </sub>
+  - <sub> its a improved terminal where you can split easily in four any layout </sub>
 to intall it 
 sudo apt intall terminator 
 visual studio - to write code 
