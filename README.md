@@ -10,11 +10,11 @@ Ros2 humble: 2nd version (is now stable)
 
 
 ### why ros?
-Provided a standard for robotic application 
-use on any robot
-code separation and communication tools 
-save you a huge amount of time and prevent you from reinventing the wheel 
-is a language agnostic, so we can program in diferents languages like python or c++
+- Provided a standard for robotic application 
+- use on any robot
+- code separation and communication tools 
+- save you a huge amount of time and prevent you from reinventing the wheel 
+- is a language agnostic, so we can program in diferents languages like python or c++
 
 ### when to use ROS2?
 
@@ -25,13 +25,13 @@ help you develop powerful and scalable robot applications, so when you need a lo
 
 - **Terminal window**
   - Command prompt
-- **visual studio**
+- **Visual studio**
   - Code editor redefined and optimized for building and debugging modern web and cloud applications
   - You can also install Microsoft Visual Studio Code from your Ubuntu's GUI
 - **Terminator**  
   - Its a improved terminal where you can split easily in four any layout
   - To install it `sudo apt install terminator`
-- **pip3**
+- **Pip3**
   - The official package manager and pip command for Python 3
   - To install it `sudo apt install python3-pip`
 
