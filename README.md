@@ -12,15 +12,14 @@ Robot Operating System
 
 ### why ros?
 - Provided a standard for robotic application 
-- use on any robot
-- code separation and communication tools 
-- save you a huge amount of time and prevent you from reinventing the wheel 
-- is a language agnostic, so we can program in diferents languages like python or c++
+- Use on any robot
+- Code separation and communication tools 
+- Save you a huge amount of time and prevent you from reinventing the wheel 
+- Is a language agnostic, so we can program in diferents languages like python or c++
 
 ### when to use ROS2?
 
-help you develop powerful and scalable robot applications, so when you need a lot of communicaction 
-
+Help you develop powerful and scalable robot applications, so when you need a lot of communicaction 
 
 ## 2.Tools we use 
 
@@ -35,16 +34,13 @@ help you develop powerful and scalable robot applications, so when you need a lo
 - **Pip3**
   - The official package manager and pip command for Python 3
   - To install it `sudo apt install python3-pip`
-
-installation link: https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html
-
-you need to install colcon is a build tool and was created specify for ros2 
-sudo apt install python3-colcon-common-extensions
-
-
-go to 
-source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash
-
+- **Colcon**
+ - Is a build tool and was created specify for ros2 
+ - To install it `sudo apt install python3-colcon-common-extensions`
+ - Put this line in your bashrc file
+```
+   source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash
+```
 
 
 language libraries 
