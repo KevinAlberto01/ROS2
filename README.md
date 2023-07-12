@@ -58,6 +58,16 @@ rclpy
 rclcpp 
  - c++
 
+## 4.Debug and monitor the nodes
+cat ~/.bashrc - line to service our cross to global installation and the line to service our cross to workspace 
+make sure you have this lines, if you don´t added to the bashrc file 
+
+```
+source /opt/ros/humble/setup.bash
+source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash
+source ~/catkin_ws/install/setup.bash
+```
+
 ## 4.References 
  - [Ros2-Humble/Documentation](https://docs.ros.org/en/rolling/index.html)
 
