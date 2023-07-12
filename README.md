@@ -95,6 +95,21 @@ ros2 run my_py_pkg py_node --ros-args --remap __node:=name of the node
 you can see the node have the original name when you run it, but with this line you change the name temporaly 
 
 
+## 6.Colcon 
+
+to build your workspace you need 
+
+```
+colcon build
+```
+if you want to build a specific package 
+```
+colcon build --packages-select #+name of the package 
+```
+
+
+
+
 ## 4.References 
  - [Ros2-Humble/Documentation](https://docs.ros.org/en/rolling/index.html)
 
