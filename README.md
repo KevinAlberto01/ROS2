@@ -11,11 +11,15 @@ Robot Operating System
  - In this tutorial, we use Humble Hawksbill version
 
 ### why ros?
-- Provided a standard for robotic application 
-- Use on any robot
-- Code separation and communication tools 
-- Save you a huge amount of time and prevent you from reinventing the wheel 
-- Is a language agnostic, so we can program in diferents languages like python or c++
+Provided a standard for robotic application 
+
+Use on any robot
+
+Code separation and communication tools 
+
+Save you a huge amount of time and prevent you from reinventing the wheel 
+
+Is a language agnostic, so we can program in diferents languages like python or c++
 
 ### when to use ROS2?
 
