@@ -1,23 +1,23 @@
 # ROS2
 ## 1.Introduction for ros2-Humble Hawksbill
 
-### what is ROS? 
+### What is ROS? 
 Robot Operating System 
 
-### version of ros?
+### Version of ros?
 **Ros** : 1st version. 
  
 **Ros 2**: 2nd version (is now stable).
 - In this tutorial, we use Humble Hawksbill version
 
-### why ros?
+### Why ros?
 - Provided a standard for robotic application 
 - Use on any robot
 - Code separation and communication tools 
 - Save you a huge amount of time and prevent you from reinventing the wheel 
 - Is a language agnostic, so we can program in diferents languages like python or c++
 
-### when to use ROS2?
+### When to use ROS2?
 
 Help you develop powerful and scalable robot applications, so when you need a lot of communicaction 
 
