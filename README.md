@@ -50,7 +50,7 @@ source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash
 
 ## 3.language libraries 
 ### rlc ### 
- - is a ros library and it means Ross Client Library also is a  library which contains all the functionalities 
+ - Is a ros library and it means Ross Client Library also is a  library which contains all the functionalities 
 
 rclpy 
  - python
