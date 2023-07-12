@@ -82,7 +82,18 @@ run is for running a program with this you need a package and executable
 ros run -h is for get some help about the command
 ros2 node list -> allow you to see all the nodes 
 
-ros2 node info /node -> will you give you some information about subscribers 
+ros2 node info /node -> will you give you some information about subscribers
+
+### Remame a Node at Runtime 
+
+if you have differents nodes but with the same name, you will have problems when you run o get information,so for change the name you need to do 
+
+run the package and then you will add 
+
+ros2 run my_py_pkg py_node --ros-args --remap __node:=name of the node 
+
+you can see the node have the original name when you run it, but with this line you change the name temporaly 
+
 
 ## 4.References 
  - [Ros2-Humble/Documentation](https://docs.ros.org/en/rolling/index.html)
