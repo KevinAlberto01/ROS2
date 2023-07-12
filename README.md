@@ -5,9 +5,10 @@
 Robot Operating System 
 
 ### version of ros?
-Ros1: 1st version. 
+Ros 1: 1st version. 
 
-Ros2 humble: 2nd version (is now stable).
+Ros 2: 2nd version (is now stable).
+ - In this tutorial, we use Humble Hawksbill version
 
 ### why ros?
 - Provided a standard for robotic application 
