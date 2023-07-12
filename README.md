@@ -23,8 +23,8 @@ help you develop powerful and scalable robot applications, so when you need a lo
 
 ## 2.Tools we use 
 
--**terminal** 
--**terminator**  
+- **terminal** 
+- **terminator**  
 - <sub> its a improved terminal where you can split easily in four any layout </sub>
 to intall it 
 sudo apt intall terminator 
