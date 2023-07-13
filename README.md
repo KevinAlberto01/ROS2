@@ -90,7 +90,9 @@ if you have differents nodes but with the same name, you will have problems when
 
 run the package and then you will add 
 
-ros2 run my_py_pkg py_node --ros-args --remap __node:=name of the node 
+ros2 run my_py_pkg py_node --ros-args --remap __node:=name of the node
+
+ros2 run  my_cpp_pkg cpp_node --ros-args --remap __node:=prueba 
 
 you can see the node have the original name when you run it, but with this line you change the name temporaly 
 
