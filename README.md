@@ -106,6 +106,39 @@ if you want to build a specific package
 ```
 colcon build --packages-select #+name of the package 
 ```
+for every change in the programm we need to build it
+```
+colcon build --packages-select #+name of the package --symlink-install 
+```
+it simply create a symbolic link to your file, so you dont build every change 
+
+
+## 7.Rqt and rqt_graph 
+its a node inside in to a package
+we can use the command rqt because it was installed 
+```
+rqt
+```
+you will have a white screen, its normal because it is a collection of plugins 
+
+first we need to run the package 
+
+you can directly start accurately graph with ouput graph executable 
+```
+rqt_graph 
+```
+
+## 8.Turtlesim 
+is a packages providing a simplified to the simulation of a robot
+```
+sudo apt install ros-humble-turtlesim 
+```
+for run the simulation 
+
+```
+ros2 run turtlesim
+```
+
 
 
 
