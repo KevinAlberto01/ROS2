@@ -15,3 +15,17 @@ in setup.py, console scripts, add the executable executable name = package name.
 whe you create a new file,you create a new file you create here a new execute table, you need to do call convert
 
 colcon build --symlink-install
+
+
+ros2 interface show example_interfaces/msg/String -command line with ros2 and it can help you find the interfaces 
+so you can print on the screen once inside a specific message
+
+so its show you the type and simply name 
+
+with ros2 node list - we can see the nodes are already running
+ros2 topic list -show all the topics on your graph 
+
+ros2 topic echo /robot_news - to print the information whatś coming 
+
+
+
