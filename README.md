@@ -140,9 +140,36 @@ for run the simulation
 ```
 ros2 run turtlesim
 ```
+Debug ROS2 topics with command line tools 
+ros2 topic --to handle topics 
+yo can see 
+bw, delay, echo, find, hz, info, list, pub, type 
+
+ro2 topic list is for see all the topic that is running 
+ros2 topic info /name of the topic, to se the atributes 
+ros2 topic echo /name of the topic, create a subscriber in the terminal 
+ros2 interface show /type, print the definition and see what you will send to communicate 
+ros2 topic hz /name of the topic , print the adverage of the heartz
+ros2 topic pub -r (hz) /topic type "{data: message}" /name of the topic, public in the node, 
 
 
+REMAP A TOPIC AT RUNTIME 
+we can rename a node
+ros2 run package, program, --ros-args -r __node:=my_station
+ros2 run package, program, --ros-args -r __node:=my_station -r robot_news:=my_news you can rename diferrente tpic in the same time, you can 
 
+MOnitor Topics with rqt and rqt_graph 
+ ros2 run package executable --ros-args -r __node:=my station --for change the name 
+
+
+Experiment on topics with turtlesim 
+
+
+ros2 node list -- to see the topic
+ros2 node info /turtlesim --to see the parameter we want to see o modify
+ros2 interface show geometry_msgs/msg/Twist --to see the attributes 
+ros2 interface show geometry_msgs/msg/Vector3 --to see the atribbutes that compond 
+ros2 topic echo /turtle1/cmd_vel --to make a subscriber 
 
 
 ## 4.References 
