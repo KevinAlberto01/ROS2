@@ -140,10 +140,13 @@ for run the simulation
 ```
 ros2 run turtlesim
 ```
-Debug ROS2 topics with command line tools 
-ros2 topic --to handle topics 
-yo can see 
-bw, delay, echo, find, hz, info, list, pub, type 
+## 9.Debug ROS2 topics with command line tools 
+To handle topics
+```
+ros2 topic 
+```
+yo can use
+list,info,echo, interface show, find, hz, pub 
 
 ro2 topic list is for see all the topic that is running 
 ros2 topic info /name of the topic, to se the atributes 
@@ -153,7 +156,7 @@ ros2 topic hz /name of the topic , print the adverage of the heartz
 ros2 topic pub -r (hz) /topic type "{data: message}" /name of the topic, public in the node, 
 
 
-REMAP A TOPIC AT RUNTIME 
+## 10.Remap a Topic at Runtime
 we can rename a node
 ros2 run package, program, --ros-args -r __node:=my_station
 ros2 run package, program, --ros-args -r __node:=my_station -r robot_news:=my_news you can rename diferrente tpic in the same time, you can 
