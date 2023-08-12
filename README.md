@@ -146,15 +146,36 @@ To handle topics
 ros2 topic 
 ```
 yo can use
+
 list,info,echo, interface show, find, hz, pub 
 
-ro2 topic list is for see all the topic that is running 
-ros2 topic info /name of the topic, to se the atributes 
-ros2 topic echo /name of the topic, create a subscriber in the terminal 
-ros2 interface show /type, print the definition and see what you will send to communicate 
-ros2 topic hz /name of the topic , print the adverage of the heartz
-ros2 topic pub -r (hz) /topic type "{data: message}" /name of the topic, public in the node, 
+For see all the topic that is running
+```
+ro2 topic list
+```
+To see the atributes
 
+```
+ros2 topic info /name of the topic, to se the atributes 
+```
+Create a subscriber in the terminal 
+
+```
+ros2 topic echo /name of the topic
+```
+
+Print the definition and see what you will send to communicate 
+```
+ros2 interface show /type
+```
+Print the adverage of the heartz
+```
+ros2 topic hz /name of the topic 
+```
+Public in the node
+```
+ros2 topic pub -r (hz) /topic type "{data: message}" /name of the topic
+```
 
 ## 10.Remap a Topic at Runtime
 we can rename a node
