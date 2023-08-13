@@ -179,23 +179,41 @@ ros2 topic pub -r (hz) /topic type "{data: message}" /name of the topic
 
 ## 10.Remap a Topic at Runtime
 we can rename a node
+
+```
 ros2 run package, program, --ros-args -r __node:=my_station
-ros2 run package, program, --ros-args -r __node:=my_station -r robot_news:=my_news you can rename diferrente tpic in the same time, you can 
 
-MOnitor Topics with rqt and rqt_graph 
+```
+you can rename diferrente topic in the same time
+```
+ros2 run package, program, --ros-args -r __node:=my_station -r robot_news:=my_news 
+```
+You can rename the package
+```
  ros2 run package executable --ros-args -r __node:=my station --for change the name 
+``` 
 
-
-Experiment on topics with turtlesim 
-
-
-ros2 node list -- to see the topic
-ros2 node info /turtlesim --to see the parameter we want to see o modify
-ros2 interface show geometry_msgs/msg/Twist --to see the attributes 
-ros2 interface show geometry_msgs/msg/Vector3 --to see the atribbutes that compond 
-ros2 topic echo /turtle1/cmd_vel --to make a subscriber 
-
-
+### 11.Experiment on topics with turtlesim 
+To see the topic
+```
+ros2 node list
+```
+To see the parameter we want to see or modify
+```
+ros2 node info /turtlesim
+```
+To see the attributes 
+```
+ros2 interface show geometry_msgs/msg/Twist  
+```
+To see the atributes that compond
+```
+ros2 interface show geometry_msgs/msg/Vector3
+```
+To make a subscriber
+```
+ros2 topic echo /turtle1/cmd_vel
+``` 
 ## 4.References 
  - [Ros2-Humble/Documentation](https://docs.ros.org/en/rolling/index.html)
 
